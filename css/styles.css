@@ -34,6 +34,7 @@ img {
 .header {
     border: 1px solid #e7e9fc;
     height: 72px;
+    padding-top: 24px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -77,7 +78,9 @@ img {
 
 .nav-list-link {
     color: #2E2F42;
-    padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 
 }
 
@@ -420,13 +423,14 @@ img {
 .footer .container{
     display: flex;
     flex-direction: row;
+    align-items: baseline;
 }
 
 .footer-div{
     display: flex;
     flex-direction: column;
     margin-right: 120px;
-    align-items: baseline;
+
 
 }
 
@@ -498,6 +502,7 @@ img {
     background-color: #4D5AE5;
     width: 100%;
     height: 100%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-media-ul-list-link:hover,
