@@ -84,10 +84,15 @@ img {
 
 }
 
-.nav-list{
-    position: relative;
+
+.nav-list-link {
     color: #404bbf;
+    position: relative;
 }
+
+
+
+
 
 .nav-list .nav-list-link::after{
     content:"";
