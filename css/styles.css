@@ -81,12 +81,12 @@ img {
 
 }
 
-.nav-list:nth-child(1){
+.nav-list{
     position: relative;
     color: #404bbf;
 }
 
-.nav-list:nth-child(1) .nav-list-link::after{
+.nav-list .nav-list-link::after{
     content:"";
     width: 100%;
     position: absolute;
@@ -426,6 +426,7 @@ img {
     display: flex;
     flex-direction: column;
     margin-right: 120px;
+    align-items: baseline;
 
 }
 
@@ -501,5 +502,5 @@ img {
 
 .footer-social-media-ul-list-link:hover,
 .footer-social-media-ul-list-link:focus{
-    background-color: #404bbf;
+    background-color:#31d0aa;
 }
